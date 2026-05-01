@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>تمارين الحمل الآمنة – دليل الأم</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #fff2f0;
+            font-family: 'Segoe UI', Tahoma, 'Traditional Arabic', Arial, sans-serif;
+            color: #4a2e2a;
+            line-height: 1.6;
+            padding: 1rem;
+        }
+
+        .app-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 2rem;
+            box-shadow: 0 20px 35px -12px rgba(0,0,0,0.1);
+            overflow: hidden;
+            padding: 1.5rem 1.2rem 2rem;
+        }
+
+        .app-header {
+            text-align: center;
+            border-bottom: 2px solid #fad1d1;
+            padding-bottom: 1rem;
+            margin-bottom: 1.8rem;
+        }
+        .app-header h1 {
+            font-size: 1.8rem;
+            color: #d47b7b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .app-header p {
+            color: #b17373;
+            margin-top: 8px;
+            font-size: 0.95rem;
+        }
+
+        .extra-video-card {
+            background: #fef0ea;
+            border-radius: 1.5rem;
+            margin: 2rem 0 1.5rem;
+            padding: 1rem;
+            border: 2px solid #e2a1a1;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.05);
+        }
+        .extra-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #b45f2b;
+            text-align: center;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .video-thumb {
+            position: relative;
+            margin: 1rem 0;
+            border-radius: 1rem;
+            overflow: hidden;
+            cursor: pointer;
+            background: #fce4e4;
+        }
+        .video-thumb img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: 0.2s;
+        }
+        .video-thumb:hover img {
+            opacity: 0.9;
+        }
+        .play-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.65);
+            color: white;
+            padding: 8px 18px;
+            border-radius: 40px;
+            font-size: 1rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            backdrop-filter: blur(4px);
+            pointer-events: none;
+        }
+        .extra-description {
+            background: #fff4e8;
+            padding: 0.8rem;
+            border-radius: 1rem;
+            color: #8b5a3a;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .exercise-card {
+            background: #fffaf8;
+            border-radius: 1.5rem;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid #ffe0e0;
+        }
+        .exercise-title {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #c96f6f;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .benefit {
+            background: #feeef0;
+            padding: 0.8rem;
+            border-radius: 1rem;
+            margin: 0.8rem 0;
+            font-weight: 500;
+            color: #b95151;
+        }
+        .steps {
+            background: #fff5f3;
+            padding: 0.8rem;
+            border-radius: 1rem;
+            margin: 0.8rem 0;
+            border-right: 4px solid #e8a5a5;
+        }
+        .safety {
+            background: #ffe5e5;
+            padding: 0.8rem;
+            border-radius: 1rem;
+            color: #b45252;
+            font-size: 0.9rem;
+        }
+        hr {
+            margin: 1.5rem 0;
+            border: none;
+            height: 1px;
+            background: #fad1d1;
+        }
+        .tips-section {
+            background: #fff4f2;
+            padding: 1rem;
+            border-radius: 1.5rem;
+            margin: 1.5rem 0;
+            border: 1px solid #fcdada;
+        }
+        .tips-section h3 {
+            color: #d47b7b;
+            margin-bottom: 0.8rem;
+        }
+        .encouragement {
+            text-align: center;
+            font-size: 1.2rem;
+            background: #fce8e6;
+            padding: 1rem;
+            border-radius: 2rem;
+            margin: 1.8rem 0 1rem;
+            color: #bc6c6c;
+        }
+        .footer-note {
+            text-align: center;
+            font-size: 0.75rem;
+            color: #b28b8b;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="app-container">
+    <div class="app-header">
+        <h1>🤰 تمارين الحمل الآمنة</h1>
+        <p>دليلكِ العملي مع فيديوهات وشرح مبسط 🌸</p>
+    </div>
+
+    <!-- 1. التنفس العميق -->
+    <div class="exercise-card">
+        <div class="exercise-title">🧘‍♀️ ١. التنفس العميق</div>
+        <a href="https://www.youtube.com/watch?v=3NKjmDrgdEU" target="_blank" style="text-decoration: none;">
+            <div class="video-thumb">
+                <img src="https://img.youtube.com/vi/3NKjmDrgdEU/0.jpg" alt="فيديو التنفس العميق للحامل">
+                <div class="play-overlay">▶ اضغطي للمشاهدة على يوتيوب</div>
+            </div>
+        </a>
+        <div class="benefit">💡 الفائدة: يخفف ألم الطلق ويساعد على التحكم بالتوتر.</div>
+        <div class="steps">
+            🫁 الطريقة:<br>
+            1. استنشقي ببطء من الأنف.<br>
+            2. احتفظي به لثانيتين.<br>
+            3. أخرجيه من الفم ببطء.
+        </div>
+        <div class="safety">✅ تأثير آمن: يحسن الأوكسجين للأم والجنين. ⚠️ لا تحبسي النفس لفترة طويلة.</div>
+    </div>
+
+    <!-- 2. كيجل -->
+    <div class="exercise-card">
+        <div class="exercise-title">💪 ٢. تمرين كيجل</div>
+        <a href="https://www.youtube.com/watch?v=0GdAnyU3F7g" target="_blank" style="text-decoration: none;">
+            <div class="video-thumb">
+                <img src="https://img.youtube.com/vi/0GdAnyU3F7g/0.jpg" alt="فيديو تمرين كيجل للحامل">
+                <div class="play-overlay">▶ اضغطي للمشاهدة على يوتيوب</div>
+            </div>
+        </a>
+        <div class="benefit">💡 الفائدة: يقوي عضلات الحوض ويساعد بعد الولادة.</div>
+        <div class="steps">
+            🔁 الطريقة:<br>
+            • شدِّي عضلات الحوض (كأنك تمنع خروج البول).<br>
+            • ثبتي 5–10 ثوانٍ.<br>
+            • أرخي. كرري 10 مرات.
+        </div>
+        <div class="safety">✅ تأثير: يمنع سلس البول بعد الولادة. ⚠️ لا تشدي عضلات البطن أو الفخذين.</div>
+    </div>
+
+    <!-- 3. المشي -->
+    <div class="exercise-card">
+        <div class="exercise-title">🚶‍♀️ ٣. المشي</div>
+        <a href="https://www.youtube.com/watch?v=3IbBYSHqgUM" target="_blank" style="text-decoration: none;">
+            <div class="video-thumb">
+                <img src="https://img.youtube.com/vi/3IbBYSHqgUM/0.jpg" alt="فيديو المشي أثناء الحمل">
+                <div class="play-overlay">▶ اضغطي للمشاهدة على يوتيوب</div>
+            </div>
+        </a>
+        <div class="benefit">💡 الفائدة: يساعد على تسهيل نزول الجنين وتنشيط الولادة الطبيعية.</div>
+        <div class="steps">🚶‍♀️ الطريقة: 20–30 دقيقة يومياً في مكان آمن ومستوٍ.</div>
+        <div class="safety">✅ تأثير: يقوي القلب والدورة الدموية. ⚠️ تجنبي الحر الشديد والطرق الوعرة.</div>
+    </div>
+
+    <!-- 4. القرفصاء (سكوات) -->
+    <div class="exercise-card">
+        <div class="exercise-title">🏋️‍♀️ ٤. القرفصاء (سكوات)</div>
+        <a href="https://www.youtube.com/watch?v=oZZzNn5DIqE" target="_blank" style="text-decoration: none;">
+            <div class="video-thumb">
+                <img src="https://img.youtube.com/vi/oZZzNn5DIqE/0.jpg" alt="فيديو السكوات الآمن للحامل">
+                <div class="play-overlay">▶ اضغطي للمشاهدة على يوتيوب</div>
+            </div>
+        </a>
+        <div class="benefit">💡 الفائدة: يوسع الحوض ويخفف آلام الظهر.</div>
+        <div class="steps">
+            🦵 الطريقة:<br>
+            • قفي بتباعد قدميك بمقدار عرض الكتفين.<br>
+            • انزلي ببطء كأنك تجلسين على كرسي.<br>
+            • اصعدي ببطء.
+        </div>
+        <div class="safety">✅ تأثير: يقوي عضلات الفخذين. ⚠️ لا تنزلي لأعمق من 90 درجة ولا تحبسي النفس.</div>
+    </div>
+
+    <!-- 5. تمدد ويوغا -->
+    <div class="exercise-card">
+        <div class="exercise-title">🧘 ٥. تمارين تمدد ويوغا خفيفة</div>
+        <a href="https://www.youtube.com/watch?v=2pBPVAuNW2w" target="_blank" style="text-decoration: none;">
+            <div class="video-thumb">
+                <img src="https://img.youtube.com/vi/3pCwZqYjPKU/0.jpg" alt="فيديو يوغا خفيفة للحامل">
+                <div class="play-overlay">▶ اضغطي للمشاهدة على يوتيوب</div>
+            </div>
+        </a>
+        <div class="benefit">💡 الفائدة: تخفف آلام الظهر والعضلات وتحسن المرونة.</div>
+        <div class="steps">
+            🌿 التمارين:<br>
+            • تمرين إمالة الحوض بلطف.<br>
+            • إطالة الظهر والفخذين.<br>
+            • شد الرقبة والكتفين.
+        </div>
+        <div class="safety">✅ تأثير: يقلل التوتر. ⚠️ تجنبي الإطالة العميقة أو التواء البطن.</div>
+    </div>
+
+    <hr>
+
+    <!-- نصائح السلامة العامة -->
+    <div class="tips-section">
+        <h3>⚠️ إرشادات السلامة الهامة</h3>
+        <ul style="margin-right: 1.2rem;">
+            <li>استشيري طبيبك قبل البدء بأي تمرين.</li>
+            <li>اشربي ماءً كافياً قبل وأثناء وبعد التمارين.</li>
+            <li>ارتدي ملابس مريحة تسمح بالحركة.</li>
+            <li>استمعي لجسمك – توقفي إذا شعرت بدوخة، ألم شديد، أو انزعاج غير طبيعي.</li>
+            <li>لا تبالغي – الاعتدال مفتاح الحمل الآمن.</li>
+            <li>احصلي على قسط كافٍ من الراحة.</li>
+        </ul>
+    </div>
+
+    <!-- الفيديو الإضافي في الأسفل -->
+    <div class="extra-video-card">
+        <div class="extra-title">📺 فيديو إضافي: شرح كامل ومعلومات مفيدة</div>
+        <a href="https://www.youtube.com/watch?v=HGcN0VKHDew" target="_blank" style="text-decoration: none;">
+            <div class="video-thumb">
+                <img src="https://img.youtube.com/vi/HGcN0VKHDew/0.jpg" alt="فيديو شرح تمارين الحمل كاملة">
+                <div class="play-overlay">▶ اضغطي للمشاهدة على يوتيوب</div>
+            </div>
+        </a>
+        <div class="extra-description">
+            📝 هذا الفيديو يشرح بطريقة مبسطة جميع التمارين الآمنة أثناء الحمل، مع فوائدها وتأثيرها على الأم والجنين. مشاهدة ممتعة ومفيدة!
+        </div>
+    </div>
+
+    <div class="encouragement">
+        🌸 أنتِ قوية ... أنتِ قادرة <br>
+        كل خطوة صغيرة تعبر عن حبك لطفلك وتقربك من لحظة اللقاء الجميل.
+    </div>
+
+    <div class="footer-note">
+        ⭐ اضغطي على أي صورة لمشاهدة الفيديو على يوتيوب – يعمل دائماً بدون أخطاء
+    </div>
+</div>
+</body>
+</html>
